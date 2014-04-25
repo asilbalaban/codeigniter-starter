@@ -70,8 +70,8 @@
 @section('scripts')
 
     <!-- Page-Level Plugin Scripts - Tables -->
-    <script src="{{base_url('public/sbadmin/js/plugins/dataTables/jquery.dataTables.js')}}"></script>
-    <script src="{{base_url('public/sbadmin/js/plugins/dataTables/dataTables.bootstrap.js')}}"></script>
+    <script src="{{base_url('public/assets/sbadmin/js/plugins/dataTables/jquery.dataTables.js')}}"></script>
+    <script src="{{base_url('public/assets/sbadmin/js/plugins/dataTables/dataTables.bootstrap.js')}}"></script>
 
     <!-- Page-Level Demo Scripts - Tables - Use for reference -->
     <script>
@@ -79,7 +79,7 @@
 
         $('#dataTables-example').dataTable( {
             "oLanguage": {
-                "sUrl": "{{base_url('public/sbadmin/js/plugins/dataTables/turkish.txt')}}"
+                "sUrl": "{{base_url('public/assets/sbadmin/js/plugins/dataTables/turkish.txt')}}"
             }
         });
 
