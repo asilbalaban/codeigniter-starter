@@ -41,7 +41,7 @@ class auth extends Public_Controller {
 		$user = $this->auth_model->authenticate($username, $password);
 		if ($user !== false) {
 			$this->session->set_userdata('login', true);
-			$this->session->set_userdata('userId', $user->userId);
+			$this->session->set_userdata('userId', $user->id);
 			$this->session->set_userdata('username', $user->username);
 			$this->session->set_userdata('userLevel', $user->level);
 
