@@ -41,8 +41,8 @@
                                             <td>{{$user->id}}</td>
                                             <td>{{$user->username}}</td>
                                             <td class="center">
-                                                <a class="btn btn-default btn-xs" href="{{base_url("admin/user/$user->id/edit")}}">Düzenle</a>
-                                                <a class="btn btn-danger btn-xs" href="{{base_url("admin/user/$user->id/delete")}}">Sil</a>
+                                                <a class="btn btn-default btn-xs" href="{{base_url("admin/user/edit/$user->id")}}">Düzenle</a>
+                                                <a class="btn btn-danger btn-xs" href="{{base_url("admin/user/delete/$user->id")}}">Sil</a>
                                             </td>
                                         </tr>
                                         @endforeach
